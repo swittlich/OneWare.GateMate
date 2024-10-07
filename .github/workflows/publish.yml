@@ -22,11 +22,11 @@ jobs:
         uses: thedoctor0/zip-release@0.7.1
         with:
           type: 'zip'
-          filename: ./OneWare.CoreMax10-${{ steps.extract-version.outputs.version }}-all.zip
+          filename: ./OneWare.GateMateEvaluationBoard-${{ steps.extract-version.outputs.version }}-all.zip
           directory: ./
           exclusions: '*.git* oneware-package.json'
       - uses: ncipollo/release-action@v1.14.0
         with:
-          artifacts: "./OneWare.CoreMax10-${{ steps.extract-version.outputs.version }}-all.zip"
+          artifacts: "./OneWare.GateMateEvaluationBoard-${{ steps.extract-version.outputs.version }}-all.zip"
           tag: ${{ steps.extract-version.outputs.version }}
           allowUpdates: true
