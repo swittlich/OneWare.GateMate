@@ -1,0 +1,32 @@
+name: Publish
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: Get Version
+        id: extract-version
+        run: | 
+          LATEST_VERSION=$(cat ./oneware-package.json | jq -r '.versions | max_by(.version | split(".") | map(tonumber)) | .version')
+          echo "Latest version is $LATEST_VERSION"
+          echo "version=$LATEST_VERSION" >> $GITHUB_OUTPUT
+      - name: Compress
+        uses: thedoctor0/zip-release@0.7.1
+        with:
+          type: 'zip'
+          filename: ./OneWare.CoreMax10-${{ steps.extract-version.outputs.version }}-all.zip
+          directory: ./
+          exclusions: '*.git* oneware-package.json'
+      - uses: ncipollo/release-action@v1.14.0
+        with:
+          artifacts: "./OneWare.CoreMax10-${{ steps.extract-version.outputs.version }}-all.zip"
+          tag: ${{ steps.extract-version.outputs.version }}
+          allowUpdates: true
