@@ -1,0 +1,753 @@
+{
+    "properties": {
+        "cologneChipToolchainType": "GateMate FPGA Evaluation Board",
+        "yosysToolchainYosysSynthTool": "synth_gatemate",
+        "cologneChipProgrammerShortTermMode": "JTAG",
+        "cologneChipProgrammerLongTermMode": "JTAG"
+    },
+    "pinConstraints": [
+        {
+            "name": "SCHMITT_TRIGGER",
+            "description": "enables or disables schmitt trigger (hysteresis) option",
+            "values": [
+                "true",
+                "false"
+            ]
+        },
+        {
+            "name": "PULLUP",
+            "description": "enables or disables I/O pullup resistor of nominal 50kOhm",
+            "values": [
+                "true",
+                "false"
+            ]
+        },
+        {
+            "name": "PULLDOWN",
+            "description": "enables or disables I/O pulldown resistor of nominal 50kOhm",
+            "values": [
+                "true",
+                "false"
+            ]
+        },
+        {
+            "name": "KEEPER",
+            "description": " enables or disables I/O keeper option",
+            "values": [
+                "true",
+                "false"
+            ]
+        },
+        {
+            "name": "SLEW",
+            "description": "sets slew rate to slow or fast",
+            "values": [
+                "slow",
+                "fast"
+            ]
+        },
+        {
+            "name": "DRIVE",
+            "description": "sets output drive strength to 3mA..12mA",
+            "values": [
+                "3", "6", "9", "12"
+            ]
+        },
+        {
+            "name": "DELAY_OBF",
+            "description": "adds an additional delay of n * nominal 50ps to output signal",
+            "values": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"
+            ]
+        },
+        {
+            "name": "DELAY_IBF",
+            "description": "adds an additional delay of n * nominal 50ps to input signal",
+            "values": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"
+            ]
+        },
+        {
+            "name": "FF_IBF",
+            "description": "enables or disables placing of FF in input buffer, if possible",
+            "values": [
+                "true",
+                "false"
+            ]
+        },
+        {
+            "name": "FF_OBF",
+            "description": "enables or disables placing of FF in output buffer, if possible",
+            "values": [
+                "true",
+                "false"
+            ]
+        },
+        {
+            "name": "LVDS_BOOST",
+            "description": "enables increased LVDS output current of 6.4mA (default: 3.2mA)",
+            "values": [
+                "true",
+                "false"
+            ]
+        },
+        {
+            "name": "LVDS_RTERM",
+            "description": "enables on-chip LVDS termination resistor of nominal 100Ohm, in input mode only",
+            "values": [
+                "true",
+                "false"
+            ]
+        }
+    ],
+    "pins": [
+        {
+            "description": "CFG_DONE",
+            "name": "IO_WA_B2"
+        },
+        {
+            "description": "CFG_FAILED",
+            "name": "IO_WA_A2"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_A0"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_B0"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_A1"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_B1"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_A3"
+        },
+        {
+            "description": "unconnected",
+            "name": "IO_WA_B5"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_A8"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_B8"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_B7"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_A7"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_B6"
+        },
+        {
+            "description": "GPIO Bank WA (JTAG Interface)",
+            "name": "IO_WA_A6"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_A5"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_B4"
+        },
+        {
+            "description": "",
+            "name": "IO_WA_A4"
+        },
+        {
+            "description": "SerDes Clock",
+            "name": "IO_WA_B3"
+        },
+        {
+            "description": "dedicated clock input only",
+            "name": "SER_CLK"
+        },
+        {
+            "description": "dedicated clock input only",
+            "name": "SER_CLK_N"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_A0"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_B0"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_A1"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_B1"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_A2"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_B2"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_A3"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_B3"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_A4"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_B4"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_A5"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_B5"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_A6"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_B6"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_A7"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_B7"
+        },
+        {
+            "description": "",
+            "name": "IO_NA_A8"
+        },
+        {
+            "description": "GPIO Bank NB (Pmod Header A)",
+            "name": "IO_NA_B8"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_A0"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_A1"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_A2"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_A3"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_B0"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_B1"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_B2"
+        },
+        {
+            "description": "GPIO Bank NB (Pmod Header B)",
+            "name": "IO_NB_B3"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_A4"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_A5"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_A6"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_A7"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_B4"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_B5"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_B6"
+        },
+        {
+            "description": "",
+            "name": "IO_NB_B7"
+        },
+        {
+            "description": "unconnected",
+            "name": "IO_NB_A8"
+        },
+        {
+            "description": "unconnected",
+            "name": "IO_NB_B8"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_A0"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_B0"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_A1"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_B1"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_A2"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_B2"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_A3"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_B3"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_A4"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_B4"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_A5"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_B5"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_A6"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_B6"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_A7"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_B7"
+        },
+        {
+            "description": "",
+            "name": "IO_EA_A8"
+        },
+        {
+            "description": "GPIO Bank EB (1.2V..2.5V)",
+            "name": "IO_EA_B8"
+        },
+        {
+            "description": "",
+            "name": "IO_EB_A0"
+        },
+        {
+            "description": "Push Button SW3",
+            "name": "IO_EB_B0"
+        },
+        {
+            "description": "",
+            "name": "IO_EB_A1"
+        },
+        {
+            "description": "LED D1",
+            "name": "IO_EB_B1"
+        },
+        {
+            "description": "",
+            "name": "IO_EB_A2"
+        },
+        {
+            "description": "LED D2",
+            "name": "IO_EB_B2"
+        },
+        {
+            "description": "",
+            "name": "IO_EB_A3"
+        },
+        {
+            "description": "LED D3",
+            "name": "IO_EB_B3"
+        },
+        {
+            "description": "",
+            "name": "IO_EB_A4"
+        },
+        {
+            "description": "LED D4",
+            "name": "IO_EB_B4"
+        },
+        {
+            "description": "",
+            "name": "IO_EB_A5"
+        },
+        {
+            "description": "LED D5",
+            "name": "IO_EB_B5"
+        },
+        {
+            "description": "",
+            "name": "IO_EB_A6"
+        },
+        {
+            "description": "LED D6",
+            "name": "IO_EB_B6"
+        },
+        {
+            "description": "",
+            "name": "IO_EB_A7"
+        },
+        {
+            "description": "LED D7",
+            "name": "IO_EB_B7"
+        },
+        {
+            "description": "",
+            "name": "IO_EB_A8"
+        },
+        {
+            "description": "LED D8",
+            "name": "IO_EB_B8"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_A0"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_B0"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_A1"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_B1"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_A2"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_B2"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_A3"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_B3"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_A4"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_B4"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_A5"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_B5"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_A6"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_B6"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_A7"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_B7"
+        },
+        {
+            "description": "",
+            "name": "IO_SA_A8"
+        },
+        {
+            "description": "GPIO Bank SB (2.5V)",
+            "name": "IO_SA_B8"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_A0"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_B0"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_A1"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_B1"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_A2"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_B2"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_A3"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_B3"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_A4"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_B4"
+        },
+        {
+            "description": "Clock3",
+            "name": "IO_SB_A5"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_B5"
+        },
+        {
+            "description": "Clock2",
+            "name": "IO_SB_A6"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_B6"
+        },
+        {
+            "description": "Clock1",
+            "name": "IO_SB_A7"
+        },
+        {
+            "description": "",
+            "name": "IO_SB_B7"
+        },
+        {
+            "description": "Clock0",
+            "name": "IO_SB_A8"
+        },
+        {
+            "description": "GPIO Bank WB (HyperBus)",
+            "name": "IO_SB_B8"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_B0"
+        },
+        {
+            "description": "unpopulated, for opt. HyperFlash",
+            "name": "IO_WB_B1"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_A3"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_B3"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_B4"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_A5"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_B5"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_A6"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_B6"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_A7"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_B7"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_A8"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_B8"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_A2"
+        },
+        {
+            "description": "unpopulated, for opt. HyperFlash",
+            "name": "IO_WB_B2"
+        },
+        {
+            "description": "unpopulated, for opt. HyperFlash",
+            "name": "IO_WB_A1"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_A0"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_B0"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_A1"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_B1"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_A2"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_B2"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_A3"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_B3"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_A4"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_B4"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_A5"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_B5"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_A6"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_B6"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_A7"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_B7"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_A8"
+        },
+        {
+            "description": "",
+            "name": "IO_WC_B8"
+        }
+    ]
+}
