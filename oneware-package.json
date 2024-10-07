@@ -28,7 +28,7 @@
       "targets": [
         {
           "target": "all",
-          "url": "https://github.com/swittlich/OneWare.GateMateEvaluationBoard/releases/download/0.1/OneWare.GateMateEvaluationBoard-0.1_all.zip"
+          "url": "https://github.com/swittlich/OneWare.GateMateEvaluationBoard/releases/download/0.1/OneWare.GateMateEvaluationBoard-0.1-all.zip"
         }
       ]
     }
