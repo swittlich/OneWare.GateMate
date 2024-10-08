@@ -1,25 +1,25 @@
 {
   "category": "FPGA Boards",
   "type": "Hardware",
-  "name": "OneWare.GateMateEvaluationBoard Extension",
-  "id": "OneWare.GateMateEvaluationBoard",
-  "description": "OneWare.GateMateEvaluationBoard for OneWare",
+  "name": "OneWare.GateMate Extension",
+  "id": "OneWare.GateMate",
+  "description": "GateMate Hardware extension for OneWare",
   "license": "MIT",
-  "iconUrl": "https://raw.githubusercontent.com/swittlich/OneWare.GateMateEvaluationBoard/main/Icon.png",
+  "iconUrl": "https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Icon.png",
   "tabs": [
     {
       "title": "Readme",
-      "contentUrl": "https://raw.githubusercontent.com/swittlich/OneWare.GateMateEvaluationBoard/main/Extension.md"
+      "contentUrl": "https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Extension.md"
     },
     {
       "title": "License",
-      "contentUrl": "https://raw.githubusercontent.com/swittlich/OneWare.GateMateEvaluationBoard/main/License.md"
+      "contentUrl": "https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/License.md"
     }
   ],
   "links": [
     {
       "name": "Github",
-      "url": "https://github.com/swittlich/OneWare.GateMateEvaluationBoard"
+      "url": "https://github.com/swittlich/OneWare.GateMate"
     }
   ],
   "versions": [
@@ -28,7 +28,7 @@
       "targets": [
         {
           "target": "all",
-          "url": "https://github.com/swittlich/OneWare.GateMateEvaluationBoard/releases/download/0.1/OneWare.GateMateEvaluationBoard_0.1_all.zip"
+          "url": "https://github.com/swittlich/OneWare.GateMate/releases/download/0.1/OneWare.GateMate-0.1-all.zip"
         }
       ]
     }

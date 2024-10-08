@@ -1,4 +1,4 @@
-![Icon](https://raw.githubusercontent.com/swittlich/OneWare.GateMateEvaluationBoard/main/Icon.png)
+![Icon](https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Icon.png)
 
 ### Get Started
 
