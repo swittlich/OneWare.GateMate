@@ -1,7 +1,7 @@
 {
   "category": "FPGA Boards",
   "type": "Hardware",
-  "name": "OneWare.GateMate Extension",
+  "name": "GateMate Support",
   "id": "OneWare.GateMate",
   "description": "GateMate Hardware extension for OneWare",
   "license": "MIT",
