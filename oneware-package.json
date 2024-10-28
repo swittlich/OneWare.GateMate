@@ -14,6 +14,10 @@
     {
       "title": "License",
       "contentUrl": "https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/License.md"
+    },
+    {
+      "title": "Release",
+      "contentUrl": "https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Release.md"
     }
   ],
   "links": [
@@ -29,6 +33,15 @@
         {
           "target": "all",
           "url": "https://github.com/swittlich/OneWare.GateMate/releases/download/0.1/OneWare.GateMate-0.1-all.zip"
+        }
+      ]
+    },
+    {
+      "version": "0.2",
+      "targets": [
+        {
+          "target": "all",
+          "url": "https://github.com/swittlich/OneWare.GateMate/releases/download/0.2/OneWare.GateMate-0.2-all.zip"
         }
       ]
     }
