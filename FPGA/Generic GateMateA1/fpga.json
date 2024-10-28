@@ -3,8 +3,7 @@
         "cologneChipToolchainType": "GateMate FPGA Evaluation Board",
         "yosysToolchainYosysSynthTool": "synth_gatemate",
         "cologneChipProgrammerShortTermMode": "JTAG",
-        "cologneChipProgrammerLongTermMode": "JTAG",
-        "cologneChipProgrammerType": "EVB"
+        "cologneChipProgrammerLongTermMode": "JTAG"
     },
     "pinConstraints": [
         {
@@ -185,6 +184,14 @@
         {
             "description": "",
             "name": "IO_NA_A0"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_A0"
+        },
+        {
+            "description": "",
+            "name": "IO_WB_A4"
         },
         {
             "description": "",
