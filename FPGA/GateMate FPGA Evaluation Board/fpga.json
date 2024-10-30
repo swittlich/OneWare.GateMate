@@ -750,5 +750,35 @@
             "description": "",
             "name": "IO_WC_B8"
         }
+    ],
+    "interfaces": [
+        {
+        "name": "PMOD_A",
+        "connector": "PMOD",
+        "pins": [
+            { "name": "1", "pin": "IO_NB_A0" },
+            { "name": "2", "pin": "IO_NB_A1" },
+            { "name": "3", "pin": "IO_NB_A2" },
+            { "name": "4", "pin": "IO_NB_A3" },
+            { "name": "5", "pin": "IO_NB_A4" },
+            { "name": "6", "pin": "IO_NB_A5" },
+            { "name": "7", "pin": "IO_NB_A6" },
+            { "name": "8", "pin": "IO_NB_A7" }
+        ]
+        },
+        {
+            "name": "PMOD_B",
+            "connector": "PMOD",
+            "pins": [
+                { "name": "1", "pin": "IO_NB_B0" },
+                { "name": "2", "pin": "IO_NB_B1" },
+                { "name": "3", "pin": "IO_NB_B2" },
+                { "name": "4", "pin": "IO_NB_B3" },
+                { "name": "5", "pin": "IO_NB_B4" },
+                { "name": "6", "pin": "IO_NB_B5" },
+                { "name": "7", "pin": "IO_NB_B6" },
+                { "name": "8", "pin": "IO_NB_B7" }
+            ]
+            }
     ]
 }

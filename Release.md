@@ -1,3 +1,6 @@
+# Version 0.3 (tbd.)
+Added GUI for EVB Board
+
 # Version 0.2 
 Add Generic GateMate FPGA Board
 
