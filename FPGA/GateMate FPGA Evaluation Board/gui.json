@@ -133,7 +133,7 @@
           { "label": "IO_SA_A5", "bind": "IO_SA_A5", "color": "#c9ce3e" },
           { "color": "GND", "label": "GND"},
           { "label": "IO_SA_A6", "bind": "IO_SA_A6", "color": "#c9ce3e" },
-          { "label": "IO_SA_A7", "bind": "IO_sA_A7", "color": "#c9ce3e" },
+          { "label": "IO_SA_A7", "bind": "IO_SA_A7", "color": "#c9ce3e" },
           { "label": "IO_SA_A8", "bind": "IO_SA_A8", "color": "#c9ce3e" },
           { "label": "GND", "color": "GND"},
           { "label": "3V3", "color": "3V3"},
