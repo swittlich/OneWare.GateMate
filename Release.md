@@ -1,4 +1,4 @@
-# Version 0.3 (tbd.)
+# Version 0.3 
 Added GUI for EVB Board
 
 # Version 0.2 
