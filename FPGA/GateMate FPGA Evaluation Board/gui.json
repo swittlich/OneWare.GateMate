@@ -509,15 +509,6 @@
         "y": 20,
         "bind": "PMOD_B"
       },
-
-      {
-        "type": "rect",
-        "x": 700,
-        "y": 300,
-        "width": 100,
-        "height": 100,
-        "color": "#4c4b4b"
-      },
       {
         "type": "rect",
         "x": 700,

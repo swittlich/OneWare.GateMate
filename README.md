@@ -13,4 +13,7 @@ For more information and documentation, [here](https://colognechip.com/programma
 ### GateMate FPGA Evaluation Board (EVB)
 ![Icon](https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Examples/GateMateEVB.png)
 
+### Olimex GateMateA1 EVB
+![Icon](https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Examples/OlimexGateMateA1EVB.png)
+
 For more information and documentation, [here](https://colognechip.com/programmable-logic/gatemate-evaluation-board/) is the link to the manufacturer 

@@ -1,0 +1,537 @@
+{
+    "width": 800,
+    "height": 350,
+    "elements": [
+      {
+        "type": "rect",
+        "x": 40,
+        "y": 40,
+        "width": 600,
+        "height": 370,
+        "color": "#A52A2A"
+      },
+      {
+        "type": "ellipse",
+        "x": 50,
+        "y": 50,
+        "width": 20,
+        "height": 20,
+        "color": "#ffffff"
+      },
+      {
+        "type": "ellipse",
+        "x": 610,
+        "y": 50,
+        "width": 20,
+        "height": 20,
+        "color": "#ffffff"
+      },
+      {
+        "type": "ellipse",
+        "x": 50,
+        "y": 380,
+        "width": 20,
+        "height": 20,
+        "color": "#ffffff"
+      },
+      {
+        "type": "ellipse",
+        "x": 610,
+        "y": 380,
+        "width": 20,
+        "height": 20,
+        "color": "#ffffff"
+      },
+      {
+        "type": "rect",
+        "x": 40,
+        "y": 80,
+        "width": 60,
+        "height": 160,
+        "color": "#0096FF"
+      },
+      {
+        "type": "text",
+        "x": 90,
+        "y": 140,
+        "color": "#0096FF",
+        "text": "VGA",
+        "fontSize": 20,
+        "rotation": 90
+      },
+      {
+        "type": "pinArray",
+        "x": 50,
+        "y": 90,
+        "horizontal": false,
+        "flipLabel": true,
+        "textColor": "white",
+        "pins": [
+          { "label": "Red3", "bind": "IO_WB_A2", "color": "#c9ce3e" },
+          { "label": "Red2", "bind": "IO_WB_B2", "color": "#c9ce3e" },
+          { "label": "Red1", "bind": "IO_WB_A3", "color": "#c9ce3e" },
+          { "label": "Red0", "bind": "IO_WB_B3", "color": "#c9ce3e" },
+          { "label": "Green3", "bind": "IO_WB_A4", "color": "#c9ce3e" },
+          { "label": "Green2", "bind": "IO_WB_B4", "color": "#c9ce3e" },
+          { "label": "Green1", "bind": "IO_WB_A5", "color": "#c9ce3e" },
+          { "label": "Green0", "bind": "IO_WB_B5", "color": "#c9ce3e" },
+          { "label": "Blue3", "bind": "IO_WB_A6", "color": "#c9ce3e" },
+          { "label": "Blue2", "bind": "IO_WB_B6", "color": "#c9ce3e" },
+          { "label": "Blue1", "bind": "IO_WB_A7", "color": "#c9ce3e" },
+          { "label": "Blue0", "bind": "IO_WB_B7", "color": "#c9ce3e" },
+          { "label": "HSync", "bind": "IO_WB_A1", "color": "#c9ce3e" },
+          { "label": "VSync", "bind": "IO_WB_B1", "color": "#c9ce3e" }
+        ]
+      },
+      {
+        "type": "rect",
+        "x": 40,
+        "y": 260,
+        "width": 60,
+        "height": 60,
+        "color": "#c0c0c0"
+      },
+      {
+        "type": "rect",
+        "x": 40,
+        "y": 260,
+        "width": 5,
+        "height": 60,
+        "color": "#000000"
+      },
+      {
+        "type": "text",
+        "x": 90,
+        "y": 275,
+        "color": "#0096FF",
+        "text": "PS/2",
+        "fontSize": 20,
+        "rotation": 90
+      },
+      {
+        "type": "pinArray",
+        "x": 50,
+        "y": 280,
+        "horizontal": false,
+        "flipLabel": true,
+        "textColor": "white",
+        "pins": [
+          { "label": "CLK", "bind": "IO_WB_A0", "color": "#c9ce3e" },
+          { "label": "DATA", "bind": "IO_WB_B0", "color": "#c9ce3e" }
+        ]
+      },
+      {
+        "type": "rect",
+        "x": 40,
+        "y": 330,
+        "width": 40,
+        "height": 40,
+        "color": "#c0c0c0"
+      },
+      {
+        "type": "pinArray",
+        "x": 140,
+        "y": 80,
+        "horizontal": true,
+        "flipLabel": false,
+        "textColor": "white",
+        "pins": [
+          { "label": "GND", "color": "GND"},
+          { "label": "NA_B0", "bind": "IO_NA_B0", "color": "#c9ce3e" },
+          { "label": "NA_B1", "bind": "IO_NA_B1", "color": "#c9ce3e" },
+          { "label": "NA_B2", "bind": "IO_NA_B2", "color": "#c9ce3e" },
+          { "label": "NA_B3", "bind": "IO_NA_B3", "color": "#c9ce3e" },
+          { "label": "NA_B4", "bind": "IO_NA_B4", "color": "#c9ce3e" },
+          { "label": "NA_B5", "bind": "IO_NA_B5", "color": "#c9ce3e" },
+          { "label": "NA_B6", "bind": "IO_NA_B6", "color": "#c9ce3e" },
+          { "label": "NA_B7", "bind": "IO_NA_B7", "color": "#c9ce3e" },
+          { "label": "NA_B8", "bind": "IO_NA_B8", "color": "#c9ce3e" }
+        ]
+      },
+      {
+        "type": "pinArray",
+        "x": 140,
+        "y": 90,
+        "horizontal": true,
+        "flipLabel": true,
+        "textColor": "white",
+        "pins": [
+          { "label": "VDD", "color": "3V3"},
+          { "label": "NA_A0", "bind": "IO_NA_A0", "color": "#c9ce3e" },
+          { "label": "NA_A1", "bind": "IO_NA_A1", "color": "#c9ce3e" },
+          { "label": "NA_A2", "bind": "IO_NA_A2", "color": "#c9ce3e" },
+          { "label": "NA_A3", "bind": "IO_NA_A3", "color": "#c9ce3e" },
+          { "label": "NA_A4", "bind": "IO_NA_A4", "color": "#c9ce3e" },
+          { "label": "NA_A5", "bind": "IO_NA_A5", "color": "#c9ce3e" },
+          { "label": "NA_A6", "bind": "IO_NA_A6", "color": "#c9ce3e" },
+          { "label": "NA_A7", "bind": "IO_NA_A7", "color": "#c9ce3e" },
+          { "label": "NA_A8", "bind": "IO_NA_A8", "color": "#c9ce3e" }
+        ]
+      },
+
+      {
+        "type": "pinArray",
+        "x": 260,
+        "y": 80,
+        "horizontal": true,
+        "flipLabel": false,
+        "textColor": "white",
+        "pins": [
+          { "label": "GND", "color": "GND"},
+          { "label": "NB_B0", "bind": "IO_NB_B0", "color": "#c9ce3e" },
+          { "label": "NB_B1", "bind": "IO_NB_B1", "color": "#c9ce3e" },
+          { "label": "NB_B2", "bind": "IO_NB_B2", "color": "#c9ce3e" },
+          { "label": "NB_B3", "bind": "IO_NB_B3", "color": "#c9ce3e" },
+          { "label": "NB_B4", "bind": "IO_NB_B4", "color": "#c9ce3e" },
+          { "label": "NB_B5", "bind": "IO_NB_B5", "color": "#c9ce3e" },
+          { "label": "NB_B6", "bind": "IO_NB_B6", "color": "#c9ce3e" },
+          { "label": "NB_B7", "bind": "IO_NB_B7", "color": "#c9ce3e" },
+          { "label": "NB_B8", "bind": "IO_NB_B8", "color": "#c9ce3e" }
+        ]
+      },
+      {
+        "type": "pinArray",
+        "x": 260,
+        "y": 90,
+        "horizontal": true,
+        "flipLabel": true,
+        "textColor": "white",
+        "pins": [
+          { "label": "VDD", "color": "3V3"},
+          { "label": "NB_A0", "bind": "IO_NB_A0", "color": "#c9ce3e" },
+          { "label": "NB_A1", "bind": "IO_NB_A1", "color": "#c9ce3e" },
+          { "label": "NB_A2", "bind": "IO_NB_A2", "color": "#c9ce3e" },
+          { "label": "NB_A3", "bind": "IO_NB_A3", "color": "#c9ce3e" },
+          { "label": "NB_A4", "bind": "IO_NB_A4", "color": "#c9ce3e" },
+          { "label": "NB_A5", "bind": "IO_NB_A5", "color": "#c9ce3e" },
+          { "label": "NB_A6", "bind": "IO_NB_A6", "color": "#c9ce3e" },
+          { "label": "NB_A7", "bind": "IO_NB_A7", "color": "#c9ce3e" },
+          { "label": "NB_A8", "bind": "IO_NB_A8", "color": "#c9ce3e" }
+        ]
+      },
+
+      {
+        "type": "pinArray",
+        "x": 380,
+        "y": 80,
+        "horizontal": true,
+        "flipLabel": false,
+        "textColor": "white",
+        "pins": [
+          { "label": "GND", "color": "GND"},
+          { "label": "EB_B0", "bind": "IO_EB_B0", "color": "#c9ce3e" },
+          { "label": "EB_B1", "bind": "IO_EB_B1", "color": "#c9ce3e" },
+          { "label": "EB_B2", "bind": "IO_EB_B2", "color": "#c9ce3e" },
+          { "label": "EB_B3", "bind": "IO_EB_B3", "color": "#c9ce3e" },
+          { "label": "EB_B4", "bind": "IO_EB_B4", "color": "#c9ce3e" },
+          { "label": "EB_B5", "bind": "IO_EB_B5", "color": "#c9ce3e" },
+          { "label": "EB_B6", "bind": "IO_EB_B6", "color": "#c9ce3e" },
+          { "label": "EB_B7", "bind": "IO_EB_B7", "color": "#c9ce3e" },
+          { "label": "EB_B8", "bind": "IO_EB_B8", "color": "#c9ce3e" }
+        ]
+      },
+      {
+        "type": "pinArray",
+        "x": 380,
+        "y": 90,
+        "horizontal": true,
+        "flipLabel": true,
+        "textColor": "white",
+        "pins": [
+          { "label": "VDD", "color": "3V3"},
+          { "label": "EB_A0", "bind": "IO_EB_A0", "color": "#c9ce3e" },
+          { "label": "EB_A1", "bind": "IO_EB_A1", "color": "#c9ce3e" },
+          { "label": "EB_A2", "bind": "IO_EB_A2", "color": "#c9ce3e" },
+          { "label": "EB_A3", "bind": "IO_EB_A3", "color": "#c9ce3e" },
+          { "label": "EB_A4", "bind": "IO_EB_A4", "color": "#c9ce3e" },
+          { "label": "EB_A5", "bind": "IO_EB_A5", "color": "#c9ce3e" },
+          { "label": "EB_A6", "bind": "IO_EB_A6", "color": "#c9ce3e" },
+          { "label": "EB_A7", "bind": "IO_EB_A7", "color": "#c9ce3e" },
+          { "label": "EB_A8", "bind": "IO_EB_A8", "color": "#c9ce3e" }
+        ]
+      },
+
+      {
+        "type": "pinArray",
+        "x": 560,
+        "y": 150,
+        "horizontal": false,
+        "flipLabel": false,
+        "textColor": "white",
+        "pins": [
+          { "label": "2V5", "color": "3V3"},
+          { "label": "FPGA_SPI_FWD", "bind": "IO_EB_A0", "color": "#c9ce3e" },
+          { "label": "EA_A8", "bind": "IO_EA_A8", "color": "#c9ce3e" },
+          { "label": "EA_B8", "bind": "IO_EA_B8", "color": "#c9ce3e" },
+          { "label": "WB_A8", "bind": "IO_WB_A8", "color": "#c9ce3e" },
+          { "label": "WB_B8", "bind": "IO_WB_B8", "color": "#c9ce3e" },
+          { "label": "SB_B3", "bind": "IO_SB_B3", "color": "#c9ce3e" },
+          { "label": "SB_A3", "bind": "IO_SB_A3", "color": "#c9ce3e" },
+          { "label": "SB_B2", "bind": "IO_SB_B2", "color": "#c9ce3e" },
+          { "label": "SB_A2", "bind": "IO_SB_A2", "color": "#c9ce3e" },
+          { "label": "SB_B1", "bind": "IO_SB_B1", "color": "#c9ce3e" },
+          { "label": "SB_A1", "bind": "IO_SB_A1", "color": "#c9ce3e" },
+          { "label": "SB_B0", "bind": "IO_SB_B0", "color": "#c9ce3e" },
+          { "label": "SB_A0", "bind": "IO_SB_A0", "color": "#c9ce3e" },
+          { "label": "FPGA_RESET_IN", "color": "#c9ce3e" },
+          { "label": "CLK0", "bind": "IO_EB_A8", "color": "#c9ce3e" },
+          { "label": "GND", "color": "GND"}
+        ]
+      },
+      {
+        "type": "pinArray",
+        "x": 570,
+        "y": 150,
+        "horizontal": false,
+        "flipLabel": true,
+        "textColor": "white",
+        "pins": [
+          { "label": "1V8", "color": "3V3"},
+          { "label": "WC_B3", "bind": "IO_EB_A0", "color": "#c9ce3e" },
+          { "label": "WC_A3", "bind": "IO_EB_A1", "color": "#c9ce3e" },
+          { "label": "WC_B2", "bind": "IO_EB_A2", "color": "#c9ce3e" },
+          { "label": "WC_A2", "bind": "IO_EB_A3", "color": "#c9ce3e" },
+          { "label": "WC_B1", "bind": "IO_EB_A4", "color": "#c9ce3e" },
+          { "label": "SB_A1", "bind": "IO_EB_A5", "color": "#c9ce3e" },
+          { "label": "SB_B0", "bind": "IO_EB_A6", "color": "#c9ce3e" },
+          { "label": "SB_A0", "bind": "IO_EB_A7", "color": "#c9ce3e" },
+          { "label": "SER_CLK_N",  "color": "#c9ce3e" },
+          { "label": "SER_CLK_P",  "color": "#c9ce3e" },
+          { "label": "SER_TX_P",  "color": "#c9ce3e" },
+          { "label": "SER_TX_N",  "color": "#c9ce3e" },
+          { "label": "SER_RX_N",  "color": "#c9ce3e" },
+          { "label": "SER_RX_P",  "color": "#c9ce3e" },
+          { "label": "CLK3", "color": "#c9ce3e" },
+          { "label": "GND", "color": "GND"}
+        ]
+      },
+      {
+        "type": "pmod",
+        "x": 540,
+        "y": 380,
+        "bind": "PMOD1",
+        "rotation": 180
+      },
+      {
+        "type": "pinArray",
+        "x": 450,
+        "y": 360,
+        "horizontal": true,
+        "flipLabel": false,
+        "textColor": "white",
+        "pins": [
+          { "label": "SCK", "bind": "IO_EB_A0", "color": "#c9ce3e" },
+          { "label": "MISO", "bind": "IO_EB_A1", "color": "#c9ce3e" },
+          { "label": "SCL", "bind": "IO_EB_A2", "color": "#c9ce3e" },
+          { "label": "TXD", "bind": "IO_EB_A3", "color": "#c9ce3e" },
+          { "label": "VDD", "color": "3V3"}
+        ]
+      },
+      {
+        "type": "pinArray",
+        "x": 450,
+        "y": 370,
+        "horizontal": true,
+        "flipLabel": true,
+        "textColor": "white",
+        "pins": [
+          { "label": "CS#", "bind": "IO_EB_A0", "color": "#c9ce3e" },
+          { "label": "MOSI", "bind": "IO_EB_A1", "color": "#c9ce3e" },
+          { "label": "SDA", "bind": "IO_EB_A2", "color": "#c9ce3e" },
+          { "label": "RXD", "bind": "IO_EB_A3", "color": "#c9ce3e" },
+          { "label": "GND", "color": "GND"}
+        ]
+      },
+      {
+        "type": "rect",
+        "x": 220,
+        "y": 180,
+        "width": 100,
+        "height": 100,
+        "color": "#4c4b4b"
+      },
+      {
+        "type": "image",
+        "x": 220,
+        "y": 190,
+        "width": 40,
+        "height": 80,
+        "color": "#4c4b4b",
+        "src":"cc_logo.svg"
+      },
+      {
+        "type": "text",
+        "x": 260,
+        "y": 200,
+        "text": "GateMate",
+        "fontSize": 10
+      },
+      {
+        "type": "image",
+        "x": 500,
+        "y": 80,
+        "width": 40,
+        "height": 50,
+        "color": "#4c4b4b",
+        "src":"cc_logo.svg"
+      },
+      {
+        "type": "text",
+        "x": 540,
+        "y": 80,
+        "text": "Cologne",
+        "fontSize": 20
+      },
+      {
+        "type": "text",
+        "x": 540,
+        "y": 100,
+        "text": "Chip",
+        "fontSize": 20
+      },
+      {
+        "type": "text",
+        "x": 340,
+        "y": 200,
+        "text": "GateMateA1-EVB",
+        "fontSize": 20
+      },
+      {
+        "type": "text",
+        "x": 380,
+        "y": 220,
+        "text": "https://www.olimex.com/",
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "x": 340,
+        "y": 220,
+        "text": "Rev.A",
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "x": 340,
+        "y": 240,
+        "text": "OLIMEX",
+        "fontSize": 20
+      },
+
+      {
+        "type": "pin",
+        "x": 100,
+        "y": 375,
+        "height": 25,
+        "width": 30,
+        "horizontal": false,
+        "flipLabel": false,
+        "textColor": "white",
+ 
+        "color": "#C0C0C0"
+      },
+      {
+        "type": "Ellipse",
+        "x": 105,
+        "y": 380,
+        "height": 15,
+        "width": 20,
+        "color": "#4c4b4b"
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 400,
+        "text": "RP-BOOT1",
+        "fontSize": 6
+      },
+
+
+      {
+        "type": "pin",
+        "x": 150,
+        "y": 375,
+        "height": 25,
+        "width": 30,
+        "horizontal": false,
+        "flipLabel": false,
+        "textColor": "white",
+ 
+        "color": "#C0C0C0"
+      },
+      {
+        "type": "Ellipse",
+        "x": 155,
+        "y": 380,
+        "height": 15,
+        "width": 20,
+        "color": "#4c4b4b"
+      },
+      {
+        "type": "text",
+        "x": 150,
+        "y": 400,
+        "text": "RP-RST1",
+        "fontSize": 6
+      },
+
+
+
+      {
+        "type": "pin",
+        "x": 200,
+        "y": 375,
+        "height": 25,
+        "width": 30,
+        "horizontal": false,
+        "flipLabel": false,
+        "textColor": "white",
+        "bind": "IO_SB_B7",
+        "color": "#C0C0C0"
+      },
+      {
+        "type": "Ellipse",
+        "x": 205,
+        "y": 380,
+        "height": 15,
+        "width": 20,
+        "color": "#4c4b4b"
+      },
+      {
+        "type": "text",
+        "x": 200,
+        "y": 400,
+        "text": "RP-FPGA_BUT1",
+        "fontSize": 6
+      },
+
+
+      {
+        "type": "pin",
+        "x": 250,
+        "y": 375,
+        "height": 25,
+        "width": 30,
+        "horizontal": false,
+        "flipLabel": false,
+        "textColor": "white",
+ 
+        "color": "#C0C0C0"
+      },
+      {
+        "type": "Ellipse",
+        "x": 255,
+        "y": 380,
+        "height": 15,
+        "width": 20,
+        "color": "#4c4b4b"
+      },
+      {
+        "type": "text",
+        "x": 250,
+        "y": 400,
+        "text": "FPGA_REST1",
+        "fontSize": 6
+      }
+    ]
+  }
