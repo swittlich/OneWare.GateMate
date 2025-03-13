@@ -1,5 +1,6 @@
 # Version 0.4 (tbd.)
 Added Olimex EVB Board
+Added TH SoM
 
 # Version 0.3 
 Added GUI for EVB Board
