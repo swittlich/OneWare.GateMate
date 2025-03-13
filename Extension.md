@@ -19,7 +19,7 @@ Currently supported boards:
 
 ## TH Cologne SoM
 ![Icon](https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Examples/THSoMGateMate.png)
-The module is an Opensoruce project which cannot be purchased yet but can be built by yourself. If you are interested in building such a module, you can find everything you need [here](https://github.com/fsnitz/CcSoM).
+The module is an open source project, so it is not yet available for purchase, but you can build it yourself. If you are interested in building such a module, you can find everything you need [here](https://github.com/fsnitz/CcSoM) 
 
 
 If you need another GateMate board, feel free to create a pull request on [GitHub](https://github.com/swittlich/OneWare.GateMate).
