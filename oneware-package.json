@@ -71,6 +71,15 @@
           "url": "https://github.com/swittlich/OneWare.GateMate/releases/download/0.5.1/OneWare.GateMate-0.5.1-all.zip"
         }
       ]
+    },
+    {
+      "version": "0.5.2",
+      "targets": [
+        {
+          "target": "all",
+          "url": "https://github.com/swittlich/OneWare.GateMate/releases/download/0.5.2/OneWare.GateMate-0.5.2-all.zip"
+        }
+      ]
     }
   ]
 }

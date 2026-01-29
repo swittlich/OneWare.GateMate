@@ -16,7 +16,12 @@
         
 		"yosysToolchainPackTool": "gmpack",
 		"yosysToolchainPackFlags" : "",
-        "packToolOutputFormat": "bit"
+        "packToolOutputFormat": "bit",
+
+        "openFpgaLoaderBoard": "gatemate_evb_jtag",
+        "openFpgaLoaderShortTermFlags": "",
+        "openFpgaLoaderLongTermFlags": "",
+        "openFpgaLoaderBitstreamFormat": "bit"
     },
     "pinConstraints": [
         {
