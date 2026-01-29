@@ -1,9 +1,22 @@
 {
     "properties": {
         "cologneChipToolchainType": "GateMate FPGA Evaluation Board",
-        "yosysToolchainYosysSynthTool": "synth_gatemate",
         "cologneChipProgrammerShortTermMode": "JTAG",
-        "cologneChipProgrammerLongTermMode": "JTAG"
+        "cologneChipProgrammerLongTermMode": "JTAG",
+
+
+        "yosysToolchainYosysSynthTool": "synth_gatemate",
+		"yosysToolchainYosysFlags" : "",
+        "yosysToolchainCommand": "$SYNTH_TOOL -top  $TOP -luttree -nomx8; write_json $OUTPUT",
+
+		"yosysToolchainNextPnrTool" : "nextpnr-himbachel",
+		"yosysToolchainNextPnrFlags" : "--device=CCGM1A1  --router router2",
+        "yosysToolchainConstraintFileType" : "ccf",
+        "yosysToolchainOutputType": "txt",
+        
+		"yosysToolchainPackTool": "gmpack",
+		"yosysToolchainPackFlags" : "",
+        "packToolOutputFormat": "bit"
     },
     "pinConstraints": [
         {
