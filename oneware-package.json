@@ -64,11 +64,11 @@
       ]
     },
     {
-      "version": "0.5",
+      "version": "0.5.1",
       "targets": [
         {
           "target": "all",
-          "url": "https://github.com/swittlich/OneWare.GateMate/releases/download/0.5/OneWare.GateMate-0.5-all.zip"
+          "url": "https://github.com/swittlich/OneWare.GateMate/releases/download/0.5.1/OneWare.GateMate-0.5.1-all.zip"
         }
       ]
     }

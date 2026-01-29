@@ -5,12 +5,12 @@
         "cologneChipProgrammerLongTermMode": "JTAG",
         "cologneChipProgrammerType": "EVB",
 
-        
+
         "yosysToolchainYosysSynthTool": "synth_gatemate",
 		"yosysToolchainYosysFlags" : "",
         "yosysToolchainCommand": "$SYNTH_TOOL -top  $TOP -luttree -nomx8; write_json $OUTPUT",
 
-		"yosysToolchainNextPnrTool" : "nextpnr-himbachel",
+		"yosysToolchainNextPnrTool" : "nextpnr-himbaechel",
 		"yosysToolchainNextPnrFlags" : "--device=CCGM1A1  --router router2",
         "yosysToolchainConstraintFileType" : "ccf",
         "yosysToolchainOutputType": "txt",
