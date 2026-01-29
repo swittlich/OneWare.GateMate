@@ -1,4 +1,7 @@
-# Version 0.4 (tbd.)
+# Version 0.5
+Native YosysToolchain Support for OWS 21.18.0 or higher
+
+# Version 0.4 
 Added Olimex EVB Board
 Added TH SoM
 
