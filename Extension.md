@@ -1,10 +1,13 @@
 ![Icon](https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Icon.png)
 
-GateMateFPGA Board Support.
+[GateMateFPGA](https://colognechip.com/programmable-logic/gatemate/) board support. 
+
+Currently supported GatMates: 
+- GateMateA1 
+- GateMateA2
 
 Currently supported boards: 
-- Generic GateMateA1 Boards
-- GateMate FPGA Evaluation Board
+- GateMateA1 FPGA Evaluation Board
 - Olimex GateMateA1 EVB
 - TH Cologne SoM
 
@@ -16,6 +19,9 @@ Currently supported boards:
 
 ## GateMateA1
 ![Icon](https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Examples/GateMateA1.png)
+
+## GateMateA2
+![Icon](https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Examples/GateMateA2.png)
 
 ## TH Cologne SoM
 ![Icon](https://raw.githubusercontent.com/swittlich/OneWare.GateMate/main/Examples/THSoMGateMate.png)
