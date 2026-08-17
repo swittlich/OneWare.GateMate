@@ -1,3 +1,6 @@
+### Version 0.6.0
+Add Generic Support for GateMate A2
+
 #### Version 0.5.2
 openFPGALoader settings are included in the delivery
 
